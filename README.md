@@ -56,8 +56,7 @@ weight_impact_on_projects <- 0.15<br>
 weight_specialized_skills <- 0.1<br>
 weight_leadership_skills <- 0.15<br>
 
-### Sub-step 3.2: 
-Calculate the weighted score<br>
+### Sub-step 3.2: Calculate the weighted score<br>
 weighted_organization_reputation <- normalized_organization_reputation * weight_organization_reputation<br>
 weighted_innovation_level <- normalized_innovation_level * weight_innovation_level<br>
 weighted_educational_qualification <- normalized_educational_qualification * weight_educational_qualification<br>
