@@ -9,8 +9,8 @@ Consider the following steps in the algorithm:
 - Aggregate the weighted scores to derive a comprehensive valuation. 
 - Normalize the final valuation if needed to ensure comparability across different individuals or organizations.
 
-#Psuedo Code:
-##Input Required: List of features
+# Psuedo Code:
+## Input Required: List of features
 organization_reputation
 innovation_level 
 educational_qualification 
@@ -18,10 +18,10 @@ years_experience
 impact_on_projects
 skills
 leadership_skills 
-##Output:
+## Output:
 Final Valuation
 
-##Step 1: Initialization
+## Step 1: Initialization
 organization_reputation <- 9.0 ( out of 10)
 innovation_level <- 0.7 (Out of 1)
 educational_qualification <- 3 (Out of 4)
@@ -30,11 +30,11 @@ impact_on_projects <- 85 ( Out of 100 )
 skills <- 16 (Out of 100 )
 leadership_skills <- 22 (Out of 100 )
 
-##Step 2: Standardize Features
-###Sub-step 2.1:normalize_features( feature_value, max_value, min_value )
-####Sub-step 2.1.1:return (feature_value - min_value) / (max_value - min_value)
+## Step 2: Standardize Features
+### Sub-step 2.1:normalize_features( feature_value, max_value, min_value )
+#### Sub-step 2.1.1:return (feature_value - min_value) / (max_value - min_value)
 
-###Sub-step 2.2:
+### Sub-step 2.2:
 normalized_organization_reputation = normalize_features(organization_reputation, 0, 10)
 normalized_innovation_level = normalize_features(innovation_level, 0, 1)
 normalized_educational_qualification = normalize_features(educational_qualification, 0, 4)
