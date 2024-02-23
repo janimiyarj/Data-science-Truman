@@ -1,5 +1,5 @@
 # Data-science-Truman
-Truman Algorithm
+**Truman Algorithm**
 
 Develop an algorithm or pseudocode that calculates the value of a professional based on the selected features and their corresponding weights. 
 
